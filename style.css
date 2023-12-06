@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@200;800&display=swap');
+
+body{
+    background: #f6f5f7;
+    font-family: 'Prompt', sans-serif;
+    color:#3E363F
+}
+#contenedor{
+    text-align: center;
+    width: 900px;
+    height: 500px;
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 14px 28px rgba(0,0,0,0,25), 0 10px 10px rgba(0,0,0,0,22);
+}
+.contenido{
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    overflow: hidden;
+    padding: 40px;
+}
+#error{
+    color: red;
+    font-weight: 900;
+    display: none;
+}
+.resultado{
+    color: #6996f6;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 5px;
+    display: none;
+
+}
+#sec_izq{
+    background-color: #7ec8ce;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#sec_der{
+    background-color: #6996f6;
+    width: 50%;
+    height: 100%;
+    float: right;
+}
+input{
+    width: 65%;
+    padding: 12px 15px;
+    border: none;
+    background-color: #eee;
+    border-radius: 30px;
+}
+button{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 12px 35px;
+    border-radius: 30px;
+    background-color:#6996f6;
+    border: 1px solid #6996f6;
+    color:#FFFFFF;
+    text-transform: uppercase;
+    transition: transform 20ms ease-in;
+    margin-top: 10%;
+}
+button:active{
+    background-color:#6996f6;
+    transform: scale(0.9);
+}
